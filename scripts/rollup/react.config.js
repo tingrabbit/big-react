@@ -40,14 +40,14 @@ export default [
 		output: [
 			// react-runtime
 			{
-				file: `${pkgDistPath}/react-runtime.js`,
-				name: 'react-runtime.js',
+				file: `${pkgDistPath}/jsx-runtime.js`,
+				name: 'jsx-runtime.js',
 				format: 'umd'
 			},
 			// react-dev-runtime
 			{
-				file: `${pkgDistPath}/react-dev-runtime.js`,
-				name: 'react-dev-runtime.js',
+				file: `${pkgDistPath}/jsx-dev-runtime.js`,
+				name: 'jsx-dev-runtime.js',
 				format: 'umd'
 			}
 		],
